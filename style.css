@@ -60,12 +60,14 @@ body{
 .bodycontent{
     background-color: var(--color-blue);
     background-size: cover;
+    width: 100%;
 }
 .body-imagewords{
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 90px;
+  width: 100%;
 }
 .body-imagewords .body-h1{
     color: white;
@@ -91,11 +93,19 @@ body{
     gap: 1px;
 }
 .middle-content {
-justify-content: space-around;
-margin:20px;
+justify-content: space-evenly;
 }
 .middle-word{
-    margin: 10px;
-    padding: 17px;
-    flex-direction: row;
+    margin: 20px;
+    font-size: 15px;
+    
+}
+.middle-content-icon >img{
+    background-color: lightsalmon;
+    border-radius: 50%;
+    height: 30px;
+    margin-top:30px;
+}
+.middle-word>p{
+    color: coral;
 }
