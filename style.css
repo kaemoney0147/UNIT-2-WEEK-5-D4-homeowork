@@ -35,7 +35,8 @@ body{
 }
 .nav{
     width: 100%;
-    gap: 10px;
+    gap:10px;
+    padding: 10px;
    
 }
 .navbarimage{
@@ -68,9 +69,8 @@ body{
 }
 .body-imagewords .body-h1{
     color: white;
-    font-size: 40px;
     font-family:var(--font) ;
-    text-transform: capitalize;
+    margin-top: 100px;
 }
 .body-imagewords p{
     color: #FFFFFF;
@@ -79,11 +79,13 @@ body{
 .body-button1{
     background-color: var(--color-green);
     color:white;
+    font-family: var(--font);
 }
 .instuctor-button{
     width: 500px;
     height: 50px;
     gap: 3px;
+    font-family: var(--font);
     border-radius: 5px;
 }
 .middle-content{
@@ -93,17 +95,17 @@ body{
 }
 .middle-content-icon{
  flex-direction: row;
- align-items: center;
- padding-inline: 100px;
+ padding-top: 10px;
+ display: flex;
+ gap:20px
 }
 .main-card-container {
     background-color: #f5f4f9;
-    justify-content: center;
-    margin-bottom: 300px;
+    
 }
 .main-container{
-    width: 80%;
-    padding-top: 50px;
+    width: 100%;
+    padding-top: 70px;
 }
 .cards>img{
   width: 200px;
@@ -113,23 +115,75 @@ body{
 .info-cards-first-line{
     display: flex;
     gap:5px;
-    padding-inline: 20px;
+    padding-inline: 15px;
 }
 .info-cards-second-line{
     display: flex;
     gap:4px;
-    padding-inline: 20px;
+    margin-inline: 10px;
+    padding-inline: 11px;
     
 }
-.cards>p{
+.card-imge>p{
 padding-inline: 20px;
 }
 .amount{
-    padding-inline: 20px;
+    padding-inline: 23px;
 }
 .card-recomended {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* width: 100%; */
+    /* object-fit: cover; */
+    gap: 20px;
+    padding-inline: 200px
 
+}
+.brook-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+}
+/* .cards{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black transparent;
+    background-color: white;
+    border-radius: 10px;
+} */
+.first-card-image{
+    display: flex;
+    padding-inline: 15px;
+    margin-bottom: 10px;
+    gap:5px
+}
+.first-card-image{
+margin-bottom: 15px;
+}
+.card-imge>img{
+width: 220px;
+height: 130px;
+border-radius: 3px;
+background-size: cover;
+}
+.card-imge{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.recomend-section> h3{
+    text-align: left;
+    margin-left: 200px;
+}
+.incon-card img{
+    color: coral;
+}
+.inline-flex{
+    display: inline-flex;
+}
+.navbar a img{
+    margin: 1px;
+    width: 17px;
 }
